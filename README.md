@@ -10,12 +10,9 @@
     "message": "Response Message...",
     "meta": {
         "toast": true || false,
-        "RkesType": "Json" || "Base64" || "byteArray"
-    },
-    "activeRequest":{
-        ""
+        "ResType" : "Json" || "Base64" || "byteArray",
+        "sessionActive" : true || false
     }
-
 }
 
 
