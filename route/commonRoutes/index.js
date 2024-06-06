@@ -1,6 +1,6 @@
 const commonRoutes =  require('express').Router()
 const CommonResponse = require("../../utils/CommonResponse")
-commonRoutes.get('/fetchProfile',(req,re)=>{
+commonRoutes.get('/fetchProfile',(req,res)=>{
     // res.send(CommonResponse)
     res.send()
 })
